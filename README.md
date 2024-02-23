@@ -30,7 +30,7 @@
 
 - This fork is fixed for now module requirements:
 - Changed from:
-- #from torchvision.transforms.functional_tensor import rgb_to_grayscale
+- from torchvision.transforms.functional_tensor import rgb_to_grayscale
 - to:
 - from torchvision.transforms.functional import rgb_to_grayscale # Fix for new modules
 
